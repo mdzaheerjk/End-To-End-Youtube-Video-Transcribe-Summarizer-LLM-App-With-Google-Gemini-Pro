@@ -1,5 +1,4 @@
 import streamlit as st
-import os
 from google import genai
 
 from youtube_transcript_api import YouTubeTranscriptApi
@@ -15,7 +14,6 @@ and summarizing the entire video and providing the important summary in points
 within 250 words. Please provide the summary of the text given here:  
 """
 
-from youtube_transcript_api import YouTubeTranscriptApi
 
 def extract_transcription_details(youtube_video_url):
     try:
